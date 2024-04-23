@@ -1,0 +1,11 @@
+.table-view .column {
+    -fx-pref-height: 40px; /* Set the preferred width for all columns */
+}
+
+.custom-table-view .table-cell {
+    -fx-alignment: CENTER;
+}
+
+.custom-table-view .column-header .label {
+    -fx-alignment: CENTER;
+}

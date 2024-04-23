@@ -1,0 +1,39 @@
+Welcome to Sliced - Version 1.0 Information Page
+
+
+Main Menu
+
+When you open the Sliced app, you'll be greeted by our Main Menu opening page. 
+This is where you can explore our range of products and make quick purchases.
+
+1.Add to Cart: Click on the "Add to Cart" button to swiftly add your desired products to your shopping cart. 
+  It's a convenient way to gather all the items you want to buy in one place.
+
+2.Customized Buy: If you want a more personalized experience, simply click on the product's image.
+  This will take you to a customized buying page where you can tailor your purchase according to your 
+  preferences.
+
+Cart Dialogue
+
+Once you've added items to your cart, you can proceed to the Cart Dialogue. Here, you'll be able to review 
+your selected products before making a payment.
+
+3.Checkout/Cart: This option takes you to the checkout process, where you can review your cart contents, 
+  apply any discounts or coupons, and proceed to make a secure payment.Table View Dialogue.In the Table 
+  View Dialogue, you have the opportunity to refine your order further before finalizing it.
+
+4.Select Item: Browse through your items and select the ones you wish to include in your order.
+
+5.Place Order: After you've made your selections, click on the "Place Order" button. 
+  This will initiate the purchase process and ensure that your chosen items are on their way to you.
+
+About Sliced Version 1.0
+
+This is the inaugural release of Sliced, marking the beginning of an exciting journey. We're thrilled to 
+introduce you to a seamless shopping experience that's tailored to your preferences.
+
+Sliced is designed to provide you with a user-friendly platform for browsing, customizing, and purchasing 
+products. We're committed to making your shopping experience as smooth and enjoyable as possible.
+
+Thank you for choosing Sliced for your shopping needs. We're eager to continue enhancing our software to 
+better serve you.

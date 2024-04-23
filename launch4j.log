@@ -1,0 +1,18 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\MaYaNk\Desktop\SLICES_Pizza\Sliced.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\MaYaNk\Desktop\SLICES_Pizza\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+JRE paths:	jre
+Check launcher:	C:\Users\MaYaNk\Desktop\SLICES_Pizza\jre\bin\javaw.exe (OK)
+Version string: 1.009.000_004 / 64-Bit (OK)
+Launcher:	C:\Users\MaYaNk\Desktop\SLICES_Pizza\jre\bin\javaw.exe
+Launcher args:	-jar "C:\Users\MaYaNk\Desktop\SLICES_Pizza\Sliced.exe"
+Args length:	54/32768 chars
+Exit code:	0

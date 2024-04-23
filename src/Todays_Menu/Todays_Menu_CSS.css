@@ -1,0 +1,12 @@
+.todaysItem1{-fx-background-image: url("/Images/todays_item1.jpg");
+              -fx-background-size: 200px 150px;  }
+.todaysItem1:hover{-fx-background-image: url("/Images/todays_item1.jpg");-fx-background-size: 200px 150px;   }
+.todaysItem1:pressed{-fx-background-image: url("/Images/todays_item1.jpg");-fx-background-size: 200px 150px;   }
+
+.todaysItem2{-fx-background-image: url("/Images/todays_item2.jpg"); -fx-background-size: 200px 150px;   }
+.todaysItem2:hover{-fx-background-image: url("/Images/todays_item2.jpg");-fx-background-size: 200px 150px;   }
+.todaysItem2:pressed{-fx-background-image: url("/Images/todays_item2.jpg");-fx-background-size: 200px 150px;   }
+
+.todaysItem3{-fx-background-image: url("/Images/todays_item3.jpg");-fx-background-size: 200px 150px;   }
+.todaysItem3:hover{-fx-background-image: url("/Images/todays_item3.jpg");-fx-background-size: 200px 150px;   }
+.todaysItem3:pressed{-fx-background-image: url("/Images/todays_item3.jpg");-fx-background-size: 200px 150px;   }

@@ -1,0 +1,132 @@
+
+/*VEG ITEMS*/
+
+/*SLIDE-1*/
+
+.mainMenuVegSlide1Image1{-fx-background-image: url("/Veg/Peppy_Paneer.jpg");
+              -fx-background-size: 180px 150px; 
+                -fx-background-repeat: no-repeat;-fx-background-position: center;}
+.mainMenuVegSlide1Image1:hover{-fx-background-image: url("/Veg/Peppy_Paneer.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat; -fx-background-position: center; }
+.mainMenuVegSlide1Image1:pressed{-fx-background-image: url("/Veg/Peppy_Paneer.jpg");-fx-background-size: 180px 150px;  -fx-background-repeat: no-repeat;-fx-background-position: center; }
+
+.mainMenuVegSlide1Image2{-fx-background-image: url("/Veg/Farmhouse.jpg"); -fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuVegSlide1Image2:hover{-fx-background-image: url("/Veg/Farmhouse.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuVegSlide1Image2:pressed{-fx-background-image: url("/Veg/Farmhouse.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+
+.mainMenuVegSlide1Image3{-fx-background-image: url("/Veg/Margherita.jpg");-fx-background-size: 180px 150px;-fx-background-repeat: no-repeat;-fx-background-position: center;   }
+.mainMenuVegSlide1Image3:hover{-fx-background-image: url("/Veg/Margherita.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuVegSlide1Image3:pressed{-fx-background-image: url("/Veg/Margherita.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+
+/*SLIDE-2*/
+
+.mainMenuVegSlide2Image1{-fx-background-image: url("/Veg/Mexican_Green_Wave.jpg");
+              -fx-background-size: 180px 150px; 
+                -fx-background-repeat: no-repeat;-fx-background-position: center;}
+.mainMenuVegSlide2Image1:hover{-fx-background-image: url("/Veg/Mexican_Green_Wave.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat; -fx-background-position: center; }
+.mainMenuVegSlide2Image1:pressed{-fx-background-image: url("/Veg/Mexican_Green_Wave.jpg");-fx-background-size: 180px 150px;  -fx-background-repeat: no-repeat;-fx-background-position: center; }
+
+.mainMenuVegSlide2Image2{-fx-background-image: url("/Veg/Deluxe_Veggie.jpg"); -fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuVegSlide2Image2:hover{-fx-background-image: url("/Veg/Deluxe_Veggie.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuVegSlide2Image2:pressed{-fx-background-image: url("/Veg/Deluxe_Veggie.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+
+.mainMenuVegSlide2Image3{-fx-background-image: url("/Veg/Veg_Extravaganz.jpg");-fx-background-size: 180px 150px;-fx-background-repeat: no-repeat;-fx-background-position: center;   }
+.mainMenuVegSlide2Image3:hover{-fx-background-image: url("/Veg/Veg_Extravaganz.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuVegSlide2Image3:pressed{-fx-background-image: url("/Veg/Veg_Extravaganz.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+
+
+/*SLIDE-3*/
+
+.mainMenuVegSlide3Image1{-fx-background-image: url("/Veg/Digital_Veggie_Paradise.jpg");
+              -fx-background-size: 180px 150px; 
+                -fx-background-repeat: no-repeat;-fx-background-position: center;}
+.mainMenuVegSlide3Image1:hover{-fx-background-image: url("/Veg/Digital_Veggie_Paradise.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat; -fx-background-position: center; }
+.mainMenuVegSlide3Image1:pressed{-fx-background-image: url("/Veg/Digital_Veggie_Paradise.jpg");-fx-background-size: 180px 150px;  -fx-background-repeat: no-repeat;-fx-background-position: center; }
+
+.mainMenuVegSlide3Image2{-fx-background-image: url("/Veg/IndianTandooriPaneer.jpg"); -fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuVegSlide3Image2:hover{-fx-background-image: url("/Veg/IndianTandooriPaneer.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuVegSlide3Image2:pressed{-fx-background-image: url("/Veg/IndianTandooriPaneer.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+
+
+
+/*NON VEG ITEMS*/
+
+/*SLIDE-1*/
+
+.mainMenuNonVegSlide1Image1{-fx-background-image: url("/NonVeg/ChickenDominaator.png");
+              -fx-background-size: 180px 150px; 
+                -fx-background-repeat: no-repeat;-fx-background-position: center;}
+.mainMenuNonVegSlide1Image1:hover{-fx-background-image: url("/NonVeg/ChickenDominaator.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat; -fx-background-position: center; }
+.mainMenuNonVegSlide1Image1:pressed{-fx-background-image: url("/NonVeg/ChickenDominaator.png");-fx-background-size: 180px 150px;  -fx-background-repeat: no-repeat;-fx-background-position: center; }
+
+.mainMenuNonVegSlide1Image2{-fx-background-image: url("/NonVeg/NonVegSupreme.png"); -fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuNonVegSlide1Image2:hover{-fx-background-image: url("/NonVeg/NonVegSupreme.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuNonVegSlide1Image2:pressed{-fx-background-image: url("/NonVeg/NonVegSupreme.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+
+.mainMenuNonVegSlide1Image3{-fx-background-image: url("/NonVeg/ChickenGoldenDelight.png");-fx-background-size: 180px 150px;-fx-background-repeat: no-repeat;-fx-background-position: center;   }
+.mainMenuNonVegSlide1Image3:hover{-fx-background-image: url("/NonVeg/ChickenGoldenDelight.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuNonVegSlide1Image3:pressed{-fx-background-image: url("/NonVeg/ChickenGoldenDelight.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+
+/*SLIDE-2*/
+
+.mainMenuNonVegSlide2Image1{-fx-background-image: url("/NonVeg/ChickenFiesta.png");
+              -fx-background-size: 180px 150px; 
+                -fx-background-repeat: no-repeat;-fx-background-position: center;}
+.mainMenuNonVegSlide2Image1:hover{-fx-background-image: url("/NonVeg/ChickenFiesta.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat; -fx-background-position: center; }
+.mainMenuNonVegSlide2Image1:pressed{-fx-background-image: url("/NonVeg/ChickenFiesta.png");-fx-background-size: 180px 150px;  -fx-background-repeat: no-repeat;-fx-background-position: center; }
+
+.mainMenuNonVegSlide2Image2{-fx-background-image: url("/NonVeg/IndiChickenTikka.png"); -fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuNonVegSlide2Image2:hover{-fx-background-image: url("/NonVeg/IndiChickenTikka.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuNonVegSlide2Image2:pressed{-fx-background-image: url("/NonVeg/IndiChickenTikka.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+
+.mainMenuNonVegSlide2Image3{-fx-background-image: url("/NonVeg/CreamyTomatoPPVG.jpg");-fx-background-size: 180px 150px;-fx-background-repeat: no-repeat;-fx-background-position: center;   }
+.mainMenuNonVegSlide2Image3:hover{-fx-background-image: url("/NonVeg/CreamyTomatoPPVG.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuNonVegSlide2Image3:pressed{-fx-background-image: url("/NonVeg/CreamyTomatoPPVG.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+
+
+
+/*BEVREGES ITEMS*/
+
+/*SLIDE-1*/
+
+.mainMenuBevSlide1Image1{-fx-background-image: url("/Bevreges/7up.png");
+              -fx-background-size: 180px 150px; 
+                -fx-background-repeat: no-repeat;-fx-background-position: center;}
+.mainMenuBevSlide1Image1:hover{-fx-background-image: url("/Bevreges/7up.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat; -fx-background-position: center; }
+.mainMenuBevSlide1Image1:pressed{-fx-background-image: url("/Bevreges/7up.png");-fx-background-size: 180px 150px;  -fx-background-repeat: no-repeat;-fx-background-position: center; }
+
+.mainMenuBevSlide1Image2{-fx-background-image: url("/Bevreges/mirinda.png"); -fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuBevSlide1Image2:hover{-fx-background-image: url("/Bevreges/mirinda.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuBevSlide1Image2:pressed{-fx-background-image: url("/Bevreges/mirinda.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+
+.mainMenuBevSlide1Image3{-fx-background-image: url("/Bevreges/pepsi.png");-fx-background-size: 180px 150px;-fx-background-repeat: no-repeat;-fx-background-position: center;   }
+.mainMenuBevSlide1Image3:hover{-fx-background-image: url("/Bevreges/pepsi.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuBevSlide1Image3:pressed{-fx-background-image: url("/Bevreges/pepsi.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+
+/*SLIDE-2*/
+
+.mainMenuBevSlide2Image1{-fx-background-image: url("/Bevreges/lipton.png");
+              -fx-background-size: 180px 150px; 
+                -fx-background-repeat: no-repeat;-fx-background-position: center;}
+.mainMenuBevSlide2Image1:hover{-fx-background-image: url("/Bevreges/lipton.png");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat; -fx-background-position: center; }
+.mainMenuBevSlide2Image1:pressed{-fx-background-image: url("/Bevreges/lipton.png");-fx-background-size: 180px 150px;  -fx-background-repeat: no-repeat;-fx-background-position: center; }
+
+
+
+/*PASTA ITEMS*/
+
+/*SLIDE-1*/
+
+.mainMenuPastaSlide1Image1{-fx-background-image: url("/Pasta/MoroccanPastaVeg.jpg");
+              -fx-background-size: 180px 150px; 
+                -fx-background-repeat: no-repeat;-fx-background-position: center;}
+.mainMenuPastaSlide1Image1:hover{-fx-background-image: url("/Pasta/MoroccanPastaVeg.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat; -fx-background-position: center; }
+.mainMenuBevSlide1Image1:pressed{-fx-background-image: url("/Pasta/MoroccanPastaVeg.jpg");-fx-background-size: 180px 150px;  -fx-background-repeat: no-repeat;-fx-background-position: center; }
+
+.mainMenuPastaSlide1Image2{-fx-background-image: url("/Pasta/PaneerTikkaMasala_N.jpg"); -fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuPastaSlide1Image2:hover{-fx-background-image: url("/Pasta/PaneerTikkaMasala_N.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuPastaSlide1Image2:pressed{-fx-background-image: url("/Pasta/PaneerTikkaMasala_N.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+
+.mainMenuPastaSlide1Image3{-fx-background-image: url("/Pasta/CreamyTomatoVeg_N.jpg");-fx-background-size: 180px 150px;-fx-background-repeat: no-repeat;-fx-background-position: center;   }
+.mainMenuPastaSlide1Image3:hover{-fx-background-image: url("/Pasta/CreamyTomatoVeg_N.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+.mainMenuPastaSlide1Image3:pressed{-fx-background-image: url("/Pasta/CreamyTomatoVeg_N.jpg");-fx-background-size: 180px 150px; -fx-background-repeat: no-repeat;-fx-background-position: center;  }
+

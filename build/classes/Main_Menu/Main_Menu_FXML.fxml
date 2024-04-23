@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="500.0" maxWidth="750.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" style="-fx-background-color: #1a1a1a; -fx-border-color: rgb(37, 150, 190);" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main_Menu.Main_Menu_FXMLController">
+   <children>
+      <VBox prefHeight="39.0" prefWidth="750.0">
+         <children>
+            <ImageView fitHeight="39.0" fitWidth="750.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Offer1_Header_image.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox layoutY="53.0" prefHeight="39.0" prefWidth="750.0">
+         <children>
+            <Text fill="#f8f4f4" strokeType="OUTSIDE" strokeWidth="0.0" text="Main Menu" textAlignment="CENTER" wrappingWidth="748.13671875">
+               <font>
+                  <Font name="Cooper Black" size="30.0" />
+               </font>
+               <effect>
+                  <Glow level="0.65">
+                     <input>
+                        <Reflection fraction="0.6" topOpacity="0.19" />
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Text>
+         </children>
+      </VBox>
+      <HBox layoutX="573.0" layoutY="109.0" prefHeight="39.0" prefWidth="165.0">
+         <children>
+            <Button fx:id="goToCartButton" focusTraversable="false" mnemonicParsing="false" onAction="#goToCartButtonAction" prefHeight="25.0" prefWidth="56.0" text="Cart">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="goToTodaysOffer" focusTraversable="false" mnemonicParsing="false" onAction="#goToTodaysOfferAction" text="Todays Offer">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+      <VBox layoutX="5.0" layoutY="149.0" prefHeight="348.0" prefWidth="741.0" style="-fx-background-color: #1a1a1a; -fx-border-color: rgb(37, 150, 190); -fx-border-width: 2;">
+         <children>
+            <TabPane prefHeight="348.0" prefWidth="730.0" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" tabClosingPolicy="UNAVAILABLE">
+               <tabs>
+                  <Tab fx:id="vegTabButton" onSelectionChanged="#vegTabButtonAction" style="-fx-background-color: #808080;" text="Veg">
+                     <content>
+                        <ScrollPane hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1a1a1a;">
+                           <content>
+                              <FlowPane maxHeight="750.0" prefHeight="750.0" prefWidth="722.0" prefWrapLength="500.0" style="-fx-background-color: #e0e0e0;">
+                                 <children>
+                                    <Button fx:id="mainMenuVegSlide1Image1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuVegSlide1Image1Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuVegSlide1Image1" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="mainMenuVegSlide1Image2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuVegSlide1Image2Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuVegSlide1Image2" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="mainMenuVegSlide1Image3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuVegSlide1Image3Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuVegSlide1Image3" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <HBox prefHeight="46.0" prefWidth="739.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PEPPY PANEER" textAlignment="CENTER" wrappingWidth="189.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARM HOUSE" textAlignment="CENTER" wrappingWidth="182.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MARGHERITA" textAlignment="CENTER" wrappingWidth="182.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="29.0" prefWidth="731.0">
+                                       <children>
+                                          <Button fx:id="mainMenuVegSlide1Image1Cart" mnemonicParsing="false" onAction="#mainMenuVegSlide1Image1CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="100.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                          <Button fx:id="mainMenuVegSlide1Image2Cart" mnemonicParsing="false" onAction="#mainMenuVegSlide1Image2CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="150.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                          <Button fx:id="mainMenuVegSlide1Image3Cart" mnemonicParsing="false" onAction="#mainMenuVegSlide1Image3CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="155.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                    <Button fx:id="mainMenuVegSlide2Image1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuVegSlide2Image1Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuVegSlide2Image1" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="mainMenuVegSlide2Image2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuVegSlide2Image2Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuVegSlide2Image2" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="mainMenuVegSlide2Image3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuVegSlide2Image3Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuVegSlide2Image3" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <HBox prefHeight="46.0" prefWidth="739.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MEXICAN GREEN WAVE" textAlignment="CENTER" wrappingWidth="189.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="DELUXE VEGGIE" textAlignment="CENTER" wrappingWidth="182.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="VEG EXTRAVAGANZA" textAlignment="CENTER" wrappingWidth="182.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="29.0" prefWidth="750.0">
+                                       <children>
+                                          <Button fx:id="mainMenuVegSlide2Image1Cart" mnemonicParsing="false" onAction="#mainMenuVegSlide2Image1CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="100.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                          <Button fx:id="mainMenuVegSlide2Image2Cart" mnemonicParsing="false" onAction="#mainMenuVegSlide2Image2CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="150.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                          <Button fx:id="mainMenuVegSlide2Image3Cart" mnemonicParsing="false" onAction="#mainMenuVegSlide2Image3CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="155.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                    <Button fx:id="mainMenuVegSlide3Image1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuVegSlide3Image1Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuVegSlide3Image1" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="mainMenuVegSlide3Image2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuVegSlide3Image2Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuVegSlide3Image2" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <HBox prefHeight="46.0" prefWidth="739.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="VEGGIE PARADISE" textAlignment="CENTER" wrappingWidth="189.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="INDI TANDOORI PANEER" textAlignment="CENTER" wrappingWidth="182.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="29.0" prefWidth="750.0">
+                                       <children>
+                                          <Button fx:id="mainMenuVegSlide3Image1Cart" mnemonicParsing="false" onAction="#mainMenuVegSlide3Image1CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="100.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                          <Button fx:id="mainMenuVegSlide3Image2Cart" mnemonicParsing="false" onAction="#mainMenuVegSlide3Image2CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="150.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </FlowPane>
+                           </content>
+                        </ScrollPane>
+                     </content>
+                  </Tab>
+                  <Tab fx:id="nonVegTabButton" onSelectionChanged="#nonVegTabButtonAction" style="-fx-background-color: #808080;" text="Non Veg">
+                     <content>
+                        <ScrollPane hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0">
+                           <content>
+                              <FlowPane maxHeight="750.0" prefHeight="750.0" prefWidth="740.0" prefWrapLength="500.0" style="-fx-background-color: #e0e0e0;">
+                                 <children>
+                                    <Button fx:id="mainMenuNonVegSlide1Image11" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuNonVegSlide1Image1Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuNonVegSlide1Image1" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="mainMenuNonVegSlide1Image2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuNonVegSlide1Image2Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuNonVegSlide1Image2" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="mainMenuNonVegSlide1Image3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuNonVegSlide1Image3Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuNonVegSlide1Image3" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <HBox prefHeight="46.0" prefWidth="739.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CHICKEN DOMINATOR" textAlignment="CENTER" wrappingWidth="189.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="NON VEG SUPREME" textAlignment="CENTER" wrappingWidth="182.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CHICKEN GOLDEN DELIGHT" textAlignment="CENTER" wrappingWidth="182.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="29.0" prefWidth="750.0">
+                                       <children>
+                                          <Button fx:id="mainMenuNonVegSlide1Image1Cart" mnemonicParsing="false" onAction="#mainMenuNonVegSlide1Image1CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="100.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                          <Button fx:id="mainMenuNonVegSlide1Image2Cart" mnemonicParsing="false" onAction="#mainMenuNonVegSlide1Image2CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="150.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                          <Button fx:id="mainMenuNonVegSlide1Image3Cart" mnemonicParsing="false" onAction="#mainMenuNonVegSlide1Image3CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="155.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                       </children>
+                                       <FlowPane.margin>
+                                          <Insets top="5.0" />
+                                       </FlowPane.margin>
+                                    </HBox>
+                                    <Button fx:id="mainMenuNonVegSlide2Image1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuNonVegSlide2Image1Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuNonVegSlide2Image1" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="mainMenuNonVegSlide2Image2A" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuNonVegSlide2Image2Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuNonVegSlide2Image2" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="mainNonVegMenuSlide2Image3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainNonVegMenuSlide2Image3Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuNonVegSlide2Image3" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <HBox prefHeight="46.0" prefWidth="739.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CHICKEN FIESTA" textAlignment="CENTER" wrappingWidth="189.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="INDI CHICKEN TIKKA" textAlignment="CENTER" wrappingWidth="182.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CREAMY TOMATO PASTA PIZZA" textAlignment="CENTER" wrappingWidth="182.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </HBox>
+                                    <HBox fillHeight="false" maxHeight="10.0" prefHeight="29.0" prefWidth="750.0">
+                                       <children>
+                                          <Button fx:id="mainMenuNonVegSlide2Image1Cart" mnemonicParsing="false" onAction="#mainMenuNonVegSlide2Image1CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="100.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                          <Button fx:id="mainMenuNonVegSlide2Image2Cart" mnemonicParsing="false" onAction="#mainMenuNonVegSlide2Image2CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="150.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                          <Button fx:id="mainMenuNonVegSlide2Image3Cart" mnemonicParsing="false" onAction="#mainMenuNonVegSlide2Image3CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="155.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                       </children>
+                                       <FlowPane.margin>
+                                          <Insets top="7.0" />
+                                       </FlowPane.margin>
+                                    </HBox>
+                                 </children>
+                              </FlowPane>
+                           </content>
+                        </ScrollPane>
+                     </content>
+                  </Tab>
+                  <Tab fx:id="bevTabButton" onSelectionChanged="#bevTabButtonAction" style="-fx-background-color: #808080;" text="Bevrages">
+                     <content>
+                        <ScrollPane hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0">
+                           <content>
+                              <FlowPane maxHeight="750.0" prefHeight="750.0" prefWidth="740.0" prefWrapLength="500.0" style="-fx-background-color: #e0e0e0;">
+                                 <children>
+                                    <Button fx:id="mainMenuBevSlide1Image1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuBevSlide1Image1Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuBevSlide1Image1" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="mainMenuBevSlide1Image2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuBevSlide1Image2Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuBevSlide1Image2" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="mainMenuBevSlide1Image3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuBevSlide1Image3Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuBevSlide1Image3" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <HBox prefHeight="46.0" prefWidth="739.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="7 Up (400 ml)" textAlignment="CENTER" wrappingWidth="189.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mirinda (400 ml)" textAlignment="CENTER" wrappingWidth="182.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pepsi (400 ml)" textAlignment="CENTER" wrappingWidth="182.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="29.0" prefWidth="750.0">
+                                       <children>
+                                          <Button fx:id="mainMenuBevSlide1Image1Cart" mnemonicParsing="false" onAction="#mainMenuBevSlide1Image1CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="100.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                          <Button fx:id="mainMenuBevSlide1Image2Cart" mnemonicParsing="false" onAction="#mainMenuBevSlide1Image2CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="155.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                          <Button fx:id="mainMenuBevSlide1Image3Cart" mnemonicParsing="false" onAction="#mainMenuBevSlide1Image3CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="155.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                    <Button fx:id="mainMenuBevSlide3Image1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuBevSlide3Image1Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuBevSlide2Image1" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <HBox prefHeight="46.0" prefWidth="739.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lipton (250ml)" textAlignment="CENTER" wrappingWidth="189.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="29.0" prefWidth="750.0">
+                                       <children>
+                                          <Button fx:id="mainMenuBevSlide3Image1Cart" mnemonicParsing="false" onAction="#mainMenuBevSlide3Image1CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="100.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </FlowPane>
+                           </content>
+                        </ScrollPane>
+                     </content>
+                  </Tab>
+                  <Tab fx:id="pastaTabButton" onSelectionChanged="#pastaTabButtonAction" style="-fx-background-color: #808080;" text="Pasta">
+                     <content>
+                        <ScrollPane hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0">
+                           <content>
+                              <FlowPane maxHeight="750.0" prefHeight="750.0" prefWidth="740.0" prefWrapLength="500.0" style="-fx-background-color: #e0e0e0;">
+                                 <children>
+                                    <Button fx:id="mainMenuPastaSlide1Image1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuPastaSlide1Image1Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuPastaSlide1Image1" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="mainMenuPastaSlide1Image2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuPastaSlide1Image2Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuPastaSlide1Image2" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="mainMenuPastaSlide1Image3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#mainMenuPastaSlide1Image3Action" prefHeight="150.0" prefWidth="180.0" style="-fx-border-color: rgb(37, 150, 190); -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 5;" styleClass="mainMenuPastaSlide1Image3" stylesheets="@main_menu_CSS.css" textAlignment="CENTER">
+                                       <FlowPane.margin>
+                                          <Insets left="50.0" top="15.0" />
+                                       </FlowPane.margin>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <HBox prefHeight="46.0" prefWidth="739.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MOROCCAN SPICE PASTA VEG" textAlignment="CENTER" wrappingWidth="189.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="TIKKA MASALA PASTA VEG" textAlignment="CENTER" wrappingWidth="182.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CREAMY TOMATO PASTA VEG" textAlignment="CENTER" wrappingWidth="182.13671875">
+                                             <HBox.margin>
+                                                <Insets left="45.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font name="Comic Sans MS Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="29.0" prefWidth="729.0">
+                                       <children>
+                                          <Button fx:id="mainMenuPastaSlide1Image1Cart" mnemonicParsing="false" onAction="#mainMenuPastaSlide1Image1CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="100.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                          <Button fx:id="mainMenuPastaSlide1Image2Cart" mnemonicParsing="false" onAction="#mainMenuPastaSlide1Image2CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="155.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                          <Button fx:id="mainMenuPastaSlide1Image3Cart" mnemonicParsing="false" onAction="#mainMenuPastaSlide1Image3CartAction" style="-fx-background-color: #c0c0c0; -fx-border-color: #9b9b9b;" text="Add to cart">
+                                             <HBox.margin>
+                                                <Insets left="155.0" />
+                                             </HBox.margin>
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </FlowPane>
+                           </content>
+                        </ScrollPane>
+                     </content>
+                  </Tab>
+               </tabs>
+            </TabPane>
+         </children>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </VBox>
+   </children>
+</AnchorPane>

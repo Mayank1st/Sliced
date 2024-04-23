@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" style="-fx-background-color: #1a1a1a; -fx-border-color: rgb(37, 150, 190);" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fxml.Slice_Pincode_FXMLController">
+   <top>
+      <VBox prefHeight="179.0" prefWidth="750.0" style="-fx-border-color: rgb(37, 150, 190);" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="179.0" fitWidth="747.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Pincode.jpg" />
+               </image>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </ImageView>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <VBox prefHeight="192.0" prefWidth="750.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#f8f4f4" strokeType="OUTSIDE" strokeWidth="0.0" text="LOCATION" textAlignment="CENTER" wrappingWidth="749.13671875">
+               <font>
+                  <Font name="Cooper Black" size="30.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Text>
+            <Label fx:id="selectState" alignment="CENTER" prefHeight="17.0" prefWidth="759.0" text="Select State" textFill="#f7941d">
+               <font>
+                  <Font name="Ink Free" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+            <ChoiceBox fx:id="selectStateChoiceBox" prefHeight="25.0" prefWidth="108.0">
+               <VBox.margin>
+                  <Insets left="325.0" top="15.0" />
+               </VBox.margin>
+            </ChoiceBox>
+            <Label fx:id="selectCity" alignment="CENTER" prefHeight="17.0" prefWidth="759.0" text="Select City" textFill="#f7941d">
+               <font>
+                  <Font name="Ink Free" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+            <ChoiceBox fx:id="selectCityChoiceBox" prefHeight="25.0" prefWidth="108.0">
+               <VBox.margin>
+                  <Insets left="325.0" top="15.0" />
+               </VBox.margin>
+            </ChoiceBox>
+            <Label fx:id="availablePncodes" prefHeight="17.0" prefWidth="287.0" textFill="#f7941d">
+               <VBox.margin>
+                  <Insets left="30.0" top="5.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font>
+            </Label>
+            <HBox prefHeight="37.0" prefWidth="662.0" />
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <HBox prefHeight="77.0" prefWidth="748.0" BorderPane.alignment="CENTER">
+         <children>
+            <RadioButton fx:id="option1" mnemonicParsing="false" text="RadioButton" textFill="#f7941d">
+               <HBox.margin>
+                  <Insets left="70.0" top="20.0" />
+               </HBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="option2" mnemonicParsing="false" text="RadioButton" textFill="#f7941d">
+               <HBox.margin>
+                  <Insets left="70.0" top="20.0" />
+               </HBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="option3" mnemonicParsing="false" text="RadioButton" textFill="#f7941d">
+               <HBox.margin>
+                  <Insets left="70.0" top="20.0" />
+               </HBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="option4" mnemonicParsing="false" text="RadioButton" textFill="#f7941d">
+               <HBox.margin>
+                  <Insets left="70.0" top="20.0" />
+               </HBox.margin>
+            </RadioButton>
+            <Button fx:id="submitButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#pinCodeSubmit" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #f7941d;" text="Submit" textAlignment="CENTER" textFill="#68090f">
+               <HBox.margin>
+                  <Insets left="40.0" top="15.0" />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

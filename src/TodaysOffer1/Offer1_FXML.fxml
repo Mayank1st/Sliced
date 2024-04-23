@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="750.0" style="-fx-background-color: #1a1a1a; -fx-border-color: rgb(37, 150, 190);" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TodaysOffer1.Offer1_FXMLController">
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <children>
+      <VBox layoutX="1.0" layoutY="1.0" prefHeight="37.0" prefWidth="750.0" style="-fx-border-color: rgb(37, 150, 190);">
+         <children>
+            <ImageView fitHeight="37.0" fitWidth="760.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Offer1_Header_image.jpg" />
+               </image>
+               <effect>
+                  <SepiaTone />
+               </effect>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox layoutX="14.0" layoutY="47.0" prefHeight="68.0" prefWidth="707.0">
+         <children>
+            <Text fill="#f8f4f4" fontSmoothingType="LCD" lineSpacing="7.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Double the delight, double the taste! &quot; Indulge in our irresistible offer of two piping hot pan pizzas starting @299" wrappingWidth="690.345703125">
+               <VBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Britannic Bold" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <VBox layoutX="22.0" layoutY="132.0" prefHeight="137.0" prefWidth="707.0">
+         <children>
+            <ImageView fitHeight="137.0" fitWidth="707.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Offer1_SubHeading.jpg" />
+               </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox layoutX="19.0" layoutY="289.0" prefHeight="55.0" prefWidth="715.0">
+         <children>
+            <Button fx:id="offer1ChooseButton" alignment="CENTER" cache="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#offer1Choose" prefHeight="33.0" prefWidth="116.0" style="-fx-background-color: #f7941d;" text="CHOOSE" textAlignment="CENTER" textFill="#68090f">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets left="280.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="22.0" layoutY="390.0" prefHeight="55.0" prefWidth="707.0">
+         <children>
+            <Button fx:id="backButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#backToTodaysOffer" prefHeight="35.0" prefWidth="108.0" style="-fx-background-color: #EE4B2B;" text="⇦Back" textAlignment="CENTER" textFill="#f8f5f5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SLICES_Pizza.jnlp">
+    <information>
+        <title>SLICES_Pizza</title>
+        <vendor>MaYaNk</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="9.0.4+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="SLICES_Pizza.jar" size="6493614" download="eager"/>
+        <jar href="lib\javafx-swt.jar" size="37082" download="eager"/>
+        <jar href="lib\javafx.base.jar" size="757147" download="eager"/>
+        <jar href="lib\javafx.controls.jar" size="2599761" download="eager"/>
+        <jar href="lib\javafx.fxml.jar" size="130699" download="eager"/>
+        <jar href="lib\javafx.graphics.jar" size="4318352" download="eager"/>
+        <jar href="lib\javafx.media.jar" size="278661" download="eager"/>
+        <jar href="lib\javafx.swing.jar" size="90415" download="eager"/>
+        <jar href="lib\javafx.web.jar" size="728771" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="Start.start_App" name="start_App"/>
+</jnlp>
+
