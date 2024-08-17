@@ -6,6 +6,9 @@ Sliced is a desktop application built using Java and JavaFX, designed to streaml
 ### Project Type
 Desktop Application
 
+### Deployed Link
+https://drive.google.com/drive/folders/1JprfgFxx8f857f4Qa4VdMGkfsnX-ifft
+
 ### Directory Structure
 
 ```
